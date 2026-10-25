@@ -1,0 +1,31 @@
+# Database backups containing real user/student data or local dumps
+database/*backup*.sql
+database/gamified_learning_platform_full_backup.sql
+database/backup_gamified_learning_platform.sql
+*.sql.gz
+*.dump
+*.tar.gz
+
+# Historical scratch backup folders from earlier development phases
+backup_phase2/
+backup_phase3/
+backup_phase4/
+backup_phase5/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and error reports
+*.log
+error_log
+
+# OS metadata and editor folders
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
